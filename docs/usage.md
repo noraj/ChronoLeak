@@ -16,6 +16,8 @@ CVE-1999-0524 - https://www.tenable.com/cve/CVE-1999-0524
 
 ### Examples
 
+It will display remote time and you local time both in UTC and in your local timezone (ex: CET), as well as display the time shift between you and the remote machine.
+
 ```
 $ chronoleak 10.10.205.11
 Remote time:
@@ -29,6 +31,8 @@ Local time:
 Time shift:
 00:00:01
 ```
+
+Note: the CLI requires to have [hping](https://www.hping.org) installed. See the package for your distro on [repology](https://repology.org/project/hping/versions). ChronoLeak will look for the `hping3` command to be accessible in your PATH.
 
 ## Library
 
