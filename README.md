@@ -9,7 +9,7 @@
 
 ## ICMP Timestamp Remote Time Leaker
 
-![ChronoLeak logo](https://noraj.github.io/ChronoLeak/docs/_media/chronoleak-logo.png)
+![ChronoLeak logo](https://noraj.github.io/ChronoLeak/docs/media/chronoleak-logo.png)
 
 > Leaks time on a remote machine by using ICMP timestamp requests (13) and replies (14).
 

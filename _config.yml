@@ -19,7 +19,7 @@ social: # jekyll-seo-tag > social overrides
 encoding: utf-8 # Make sure the encoding is right
 lang: en-GB # Set the site language
 title: "ChronoLeak" # Site name or title, also used in jekyll-seo-tag
-logo: '/docs/_media/chronoleak-logo.png' # Site logo, also used in jekyll-seo-tag
+logo: '/docs/media/chronoleak-logo.png' # Site logo, also used in jekyll-seo-tag
 description: 'Tool to leak time on a remote machine by using ICMP timestamp requests (13) and replies (14).'
 url: https://noraj.github.io/
 baseurl: "/ChronoLeak/"
