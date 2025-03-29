@@ -1,0 +1,6 @@
+# GitHub Pages Jekyll config
+# https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll
+# https://github.com/daviddarnes/alembic
+remote_theme: daviddarnes/alembic@main
+plugins:
+  - jekyll-remote-theme

@@ -1,0 +1,18 @@
+PATH
+  remote: .
+  specs:
+    chronoleak (0.0.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+
+PLATFORMS
+  ruby
+  x86_64-linux
+
+DEPENDENCIES
+  chronoleak!
+
+BUNDLED WITH
+   2.6.0
