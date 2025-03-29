@@ -16,6 +16,15 @@ group :development, :install do
   gem 'bundler', '~> 2.6'
 end
 
+group :development, :test do
+  gem 'minitest', '~> 5.25'
+  gem 'rake', '~> 13.2'
+end
+
+group :development, :debug do
+  gem 'irb', '~> 1.15'
+end
+
 group :development, :lint do
   gem 'rubocop', '~> 1.75'
 end

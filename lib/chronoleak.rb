@@ -10,12 +10,14 @@ require 'chronoleak/version'
 
 # Display ICMP timestamp in human form
 module ChronoLeak
+  # @param timestamp_ms [Integer]
   # @return [Time]
   def self.timestamp_to_time(timestamp_ms)
     seconds_since_midnight = timestamp_ms / 1000
     Time.at(seconds_since_midnight)
   end
 
+  # @param timestamp_ms [Integer]
   # @return [String]
   def self.timestamp_to_time_bis(timestamp_ms)
     timestamp_h = timestamp_ms / 3_600_000.0
@@ -26,6 +28,7 @@ module ChronoLeak
     format('%<h>02d:%<m>02d:%<s>02d', h: hours, m: minutes, s: seconds)
   end
 
+  # @param timestamp_ms [Integer]
   # @return [String]
   def self.timestamp_to_time_ter(timestamp_ms)
     total_seconds = timestamp_ms / 1000
@@ -35,6 +38,7 @@ module ChronoLeak
     format('%<h>02d:%<m>02d:%<s>02d', h: hours, m: minutes, s: seconds)
   end
 
+  # @param timestamp_ms [Integer]
   def self.display_times(timestamp_ms)
     remote_time = timestamp_to_time(timestamp_ms)
     puts TermLog.colorize(:blue, 'Remote time:')
@@ -50,18 +54,19 @@ module ChronoLeak
     puts time_diff(remote_time, mytime)
   end
 
-  # @param [Time] time
+  # @param time [Time]
   def self.format_time(time)
     "#{time.strftime('%H:%M:%S')} #{time.zone}"
   end
 
-  # @param [Time] time_a
-  # @param [Time] time_b
+  # @param time_a [Time]
+  # @param time_b [Time]
   # @return [String]
   def self.time_diff(time_a, time_b)
     a = Time.new(1970, 1, 1, time_a.hour, time_a.min, time_a.sec)
     b = Time.new(1970, 1, 1, time_b.hour, time_b.min, time_b.sec)
-    Time.at(b - a).utc.strftime('%H:%M:%S')
+    diff = a > b ? a - b : b - a
+    Time.at(diff).utc.strftime('%H:%M:%S')
   end
 
   # Wrapper around the Logger class to get shorter syntax

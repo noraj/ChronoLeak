@@ -8,18 +8,36 @@ GEM
   remote: https://rubygems.org/
   specs:
     ast (2.4.3)
+    date (3.4.1)
+    io-console (0.8.0)
+    irb (1.15.1)
+      pp (>= 0.6.0)
+      rdoc (>= 4.0.0)
+      reline (>= 0.4.2)
     json (2.10.2)
     language_server-protocol (3.17.0.4)
     lint_roller (1.1.0)
     logger (1.6.6)
+    minitest (5.25.5)
     parallel (1.26.3)
     parser (3.3.7.2)
       ast (~> 2.4.1)
       racc
+    pp (0.6.2)
+      prettyprint
+    prettyprint (0.2.0)
     prism (1.4.0)
+    psych (5.2.3)
+      date
+      stringio
     racc (1.8.1)
     rainbow (3.1.1)
+    rake (13.2.1)
+    rdoc (6.11.0)
+      psych (>= 4.0.0)
     regexp_parser (2.10.0)
+    reline (0.6.0)
+      io-console (~> 0.5)
     rubocop (1.75.1)
       json (~> 2.3)
       language_server-protocol (~> 3.17.0.2)
@@ -35,6 +53,7 @@ GEM
       parser (>= 3.3.7.2)
       prism (~> 1.4)
     ruby-progressbar (1.13.0)
+    stringio (3.1.2)
     unicode-display_width (3.1.4)
       unicode-emoji (~> 4.0, >= 4.0.4)
     unicode-emoji (4.0.4)
@@ -46,7 +65,10 @@ PLATFORMS
 DEPENDENCIES
   bundler (~> 2.6)
   chronoleak!
+  irb (~> 1.15)
   logger (< 2.0)
+  minitest (~> 5.25)
+  rake (~> 13.2)
   rubocop (~> 1.75)
 
 BUNDLED WITH
