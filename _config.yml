@@ -27,6 +27,10 @@ repo: https://github.com/noraj/ChronoLeak
 navigation_header:
 - title: Home
   url: /
+- title: Install
+  url: /docs/installation.html
+- title: Use
+  url: /docs/usage.html
 - title: Changes
   url: /docs/CHANGELOG.html
 navigation_footer:
