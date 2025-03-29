@@ -21,7 +21,7 @@ Gem::Specification.new do |s|
   s.metadata = {
     'bug_tracker_uri'       => 'https://github.com/noraj/ChronoLeak/issues',
     'changelog_uri'         => 'https://github.com/noraj/ChronoLeak/releases',
-    'documentation_uri'     => 'https://noraj.github.io/chronoleak/',
+    'documentation_uri'     => 'https://noraj.github.io/ChronoLeak/',
     'homepage_uri'          => 'https://github.com/noraj/ChronoLeak',
     'source_code_uri'       => 'https://github.com/noraj/ChronoLeak/',
     'funding_uri'           => 'https://github.com/sponsors/noraj',
