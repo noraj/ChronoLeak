@@ -37,6 +37,8 @@ navigation_header:
   url: /docs/usage.html
 - title: Changes
   url: /docs/CHANGELOG.html
+- title: About
+  url: /docs/about.html
 navigation_footer:
 - title: Created by noraj
   url: https://pwn.by/noraj

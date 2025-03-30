@@ -13,7 +13,7 @@
 
 > Leaks time on a remote machine by using ICMP timestamp requests (13) and replies (14).
 
-## Context
+## Context, why this tool exists?
 
 Knowing the time of a remote machine is important to perform time sensitive attacks.
 
