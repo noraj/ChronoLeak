@@ -12,7 +12,7 @@ twitter:
   username: noraj_rawsec
 author: noraj
 social: # jekyll-seo-tag > social overrides
-  name: David Darnes # jekyll-seo-tag > real name
+  name: Alexandre ZANNI # jekyll-seo-tag > real name
   links:  # jekyll-seo-tag > social aliases (sameAs)
     - https://x.com/noraj_rawsec
     - https://github.com/noraj
