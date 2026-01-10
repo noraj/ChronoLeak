@@ -13,11 +13,11 @@ group :runtime, :lib do
 end
 
 group :development, :install do
-  gem 'bundler', '~> 2.6'
+  gem 'bundler', '~> 4.0'
 end
 
 group :development, :test do
-  gem 'minitest', '~> 5.27'
+  gem 'minitest', '~> 6.0'
   gem 'rake', '~> 13.3'
 end
 
