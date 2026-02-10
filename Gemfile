@@ -22,7 +22,7 @@ group :development, :test do
 end
 
 group :development, :debug do
-  gem 'irb', '~> 1.16'
+  gem 'irb', '~> 1.17'
 end
 
 group :development, :lint do
