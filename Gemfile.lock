@@ -37,7 +37,7 @@ GEM
       stringio
     racc (1.8.1)
     rainbow (3.1.1)
-    rake (13.3.1)
+    rake (13.4.1)
     rdoc (7.2.0)
       erb
       psych (>= 4.0.0)
@@ -76,7 +76,7 @@ DEPENDENCIES
   irb (~> 1.17)
   logger (< 2.0)
   minitest (~> 6.0)
-  rake (~> 13.3)
+  rake (~> 13.4)
   rubocop (~> 1.86)
 
 BUNDLED WITH
