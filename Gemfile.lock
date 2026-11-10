@@ -21,9 +21,9 @@ GEM
     language_server-protocol (3.17.0.6)
     lint_roller (1.1.0)
     logger (1.7.0)
-    minitest (6.0.6)
+    minitest (6.1.0)
       drb (~> 2.0)
-      prism (~> 1.5)
+      prism (>= 1.5, < 3)
     parallel (1.28.0)
     parser (3.3.13.0)
       ast (~> 2.4.1)
@@ -75,7 +75,7 @@ DEPENDENCIES
   chronoleak!
   irb (~> 1.18)
   logger (< 2.0)
-  minitest (~> 6.0)
+  minitest (~> 6.1)
   rake (~> 13.4)
   rubocop (~> 1.92)
 
